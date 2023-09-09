@@ -65,3 +65,5 @@ while money > cost:
 # line 1
 # line 2
 
+# something cool
+
