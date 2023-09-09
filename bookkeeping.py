@@ -64,8 +64,12 @@ async def house(ctx: commands.Context, arg: str):
 # InOut, month, date, category1, name, price
 
 money = 10000
-cost = 0
-income = 0
+incomeLs = pd.read_csv("income.csv")
+costLs = pd.read_csv("expense.csv")
+
+cost = sum(costLs["price"]) # 計算總花費
+income = sum(incomeLs["price"]) # 計算總花費
+
 
 @bot.command()
 async def clear(ctx: commands.Context):
