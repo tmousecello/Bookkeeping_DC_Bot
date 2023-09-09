@@ -62,3 +62,6 @@ while money > cost:
 #     await ctx.send(f"You buy {stuff}, Your money remain {money}")
 #     print()
 
+# line 1
+# line 2
+
